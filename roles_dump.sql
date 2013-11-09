@@ -1,0 +1,13 @@
+insert into roles (name) values('Lane Support');
+insert into roles (name) values('Carry');
+insert into roles (name) values('Disabler');
+insert into roles (name) values('Ganker');
+insert into roles (name) values('Nuker');
+insert into roles (name) values('Initiator');
+insert into roles (name) values('Jungler');
+insert into roles (name) values('Pusher');
+insert into roles (name) values('Roamer');
+insert into roles (name) values('Durable');
+insert into roles (name) values('Escape');
+insert into roles (name) values('Semi-Carry');
+insert into roles (name) values('Support');
