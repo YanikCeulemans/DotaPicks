@@ -2,3 +2,5 @@ vendor/
 .DS_Store
 .idea
 app/config/database.php
+bower_components/
+public/packages/
