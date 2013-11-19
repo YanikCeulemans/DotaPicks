@@ -7,6 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class Hero {
+class Hero extends Eloquent{
+    public $timestamps = false;
 
 }

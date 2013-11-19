@@ -7,6 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class Role {
-
+class Role extends Eloquent{
+    public $timestamps = false;
 }
