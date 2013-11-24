@@ -1,103 +1,103 @@
-            "localized_name": "Anti-Mage"
-            "localized_name": "Axe"
-            "localized_name": "Bane"
-            "localized_name": "Bloodseeker"
-            "localized_name": "Crystal Maiden"
-            "localized_name": "Drow Ranger"
-            "localized_name": "Earthshaker"
-            "localized_name": "Juggernaut"
-            "localized_name": "Mirana"
-            "localized_name": "Shadow Fiend"
-            "localized_name": "Morphling"
-            "localized_name": "Phantom Lancer"
-            "localized_name": "Puck"
-            "localized_name": "Pudge"
-            "localized_name": "Razor"
-            "localized_name": "Sand King"
-            "localized_name": "Storm Spirit"
-            "localized_name": "Sven"
-            "localized_name": "Tiny"
-            "localized_name": "Vengeful Spirit"
-            "localized_name": "Windrunner"
-            "localized_name": "Zeus"
-            "localized_name": "Kunkka"
-            "localized_name": "Lina"
-            "localized_name": "Lich"
-            "localized_name": "Lion"
-            "localized_name": "Shadow Shaman"
-            "localized_name": "Slardar"
-            "localized_name": "Tidehunter"
-            "localized_name": "Witch Doctor"
-            "localized_name": "Riki"
-            "localized_name": "Enigma"
-            "localized_name": "Tinker"
-            "localized_name": "Sniper"
-            "localized_name": "Necrolyte"
-            "localized_name": "Warlock"
-            "localized_name": "Beastmaster"
-            "localized_name": "Queen of Pain"
-            "localized_name": "Venomancer"
-            "localized_name": "Faceless Void"
-            "localized_name": "Skeleton King"
-            "localized_name": "Death Prophet"
-            "localized_name": "Phantom Assassin"
-            "localized_name": "Pugna"
-            "localized_name": "Templar Assassin"
-            "localized_name": "Viper"
-            "localized_name": "Luna"
-            "localized_name": "Dragon Knight"
-            "localized_name": "Dazzle"
-            "localized_name": "Clockwerk"
-            "localized_name": "Leshrac"
-            "localized_name": "Nature's Prophet"
-            "localized_name": "Lifestealer"
-            "localized_name": "Dark Seer"
-            "localized_name": "Clinkz"
-            "localized_name": "Omniknight"
-            "localized_name": "Enchantress"
-            "localized_name": "Huskar"
-            "localized_name": "Night Stalker"
-            "localized_name": "Broodmother"
-            "localized_name": "Bounty Hunter"
-            "localized_name": "Weaver"
-            "localized_name": "Jakiro"
-            "localized_name": "Batrider"
-            "localized_name": "Chen"
-            "localized_name": "Spectre"
-            "localized_name": "Doom"
-            "localized_name": "Ancient Apparition"
-            "localized_name": "Ursa"
-            "localized_name": "Spirit Breaker"
-            "localized_name": "Gyrocopter"
-            "localized_name": "Alchemist"
-            "localized_name": "Invoker"
-            "localized_name": "Silencer"
-            "localized_name": "Outworld Devourer"
-            "localized_name": "Lycanthrope"
-            "localized_name": "Brewmaster"
-            "localized_name": "Shadow Demon"
-            "localized_name": "Lone Druid"
-            "localized_name": "Chaos Knight"
-            "localized_name": "Meepo"
-            "localized_name": "Treant Protector"
-            "localized_name": "Ogre Magi"
-            "localized_name": "Undying"
-            "localized_name": "Rubick"
-            "localized_name": "Disruptor"
-            "localized_name": "Nyx Assassin"
-            "localized_name": "Naga Siren"
-            "localized_name": "Keeper of the Light"
-            "localized_name": "Wisp"
-            "localized_name": "Visage"
-            "localized_name": "Slark"
-            "localized_name": "Medusa"
-            "localized_name": "Troll Warlord"
-            "localized_name": "Centaur Warrunner"
-            "localized_name": "Magnus"
-            "localized_name": "Timbersaw"
-            "localized_name": "Bristlebog"
-            "localized_name": "Tusk"
-            "localized_name": "Skywrath Mage"
-            "localized_name": "Abaddon"
-            "localized_name": "Elder Titan"
-            "localized_name": "Legion Commander"
+'Anti-Mage',
+'Axe',
+'Bane',
+'Bloodseeker',
+'Crystal Maiden',
+'Drow Ranger',
+'Earthshaker',
+'Juggernaut',
+'Mirana',
+'Shadow Fiend',
+'Morphling',
+'Phantom Lancer',
+'Puck',
+'Pudge',
+'Razor',
+'Sand King',
+'Storm Spirit',
+'Sven',
+'Tiny',
+'Vengeful Spirit',
+'Windrunner',
+'Zeus',
+'Kunkka',
+'Lina',
+'Lich',
+'Lion',
+'Shadow Shaman',
+'Slardar',
+'Tidehunter',
+'Witch Doctor',
+'Riki',
+'Enigma',
+'Tinker',
+'Sniper',
+'Necrolyte',
+'Warlock',
+'Beastmaster',
+'Queen of Pain',
+'Venomancer',
+'Faceless Void',
+'Skeleton King',
+'Death Prophet',
+'Phantom Assassin',
+'Pugna',
+'Templar Assassin',
+'Viper',
+'Luna',
+'Dragon Knight',
+'Dazzle',
+'Clockwerk',
+'Leshrac',
+'Nature's Prophet',
+'Lifestealer',
+'Dark Seer',
+'Clinkz',
+'Omniknight',
+'Enchantress',
+'Huskar',
+'Night Stalker',
+'Broodmother',
+'Bounty Hunter',
+'Weaver',
+'Jakiro',
+'Batrider',
+'Chen',
+'Spectre',
+'Doom',
+'Ancient Apparition',
+'Ursa',
+'Spirit Breaker',
+'Gyrocopter',
+'Alchemist',
+'Invoker',
+'Silencer',
+'Outworld Devourer',
+'Lycanthrope',
+'Brewmaster',
+'Shadow Demon',
+'Lone Druid',
+'Chaos Knight',
+'Meepo',
+'Treant Protector',
+'Ogre Magi',
+'Undying',
+'Rubick',
+'Disruptor',
+'Nyx Assassin',
+'Naga Siren',
+'Keeper of the Light',
+'Wisp',
+'Visage',
+'Slark',
+'Medusa',
+'Troll Warlord',
+'Centaur Warrunner',
+'Magnus',
+'Timbersaw',
+'Bristlebog',
+'Tusk',
+'Skywrath Mage',
+'Abaddon',
+'Elder Titan',
+'Legion Commander'

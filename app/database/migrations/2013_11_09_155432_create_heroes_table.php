@@ -17,6 +17,7 @@ class CreateHeroesTable extends Migration {
             $table->string('name');
             $table->string('type');
             $table->boolean('is_ranged');
+            $table->boolean('is_radiant');
         });
 	}
 
