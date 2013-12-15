@@ -5,3 +5,4 @@ app/config/database.php
 bower_components/
 public/packages/
 public/css/
+node_modules/

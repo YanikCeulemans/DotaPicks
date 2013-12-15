@@ -43,6 +43,12 @@ class HeroTableSeeder extends Seeder
             'is_radiant' => 1
         ));
         Hero::create(array(
+            'name' => 'drow_ranger',
+            'type' => 'agi',
+            'is_ranged' => 1,
+            'is_radiant' => 1
+        ));
+        Hero::create(array(
             'name' => 'earthshaker',
             'type' => 'str',
             'is_ranged' => 0,
@@ -313,6 +319,12 @@ class HeroTableSeeder extends Seeder
             'is_radiant' => 0
         ));
         Hero::create(array(
+            'name' => 'dark_seer',
+            'type' => 'int',
+            'is_ranged' => 0,
+            'is_radiant' => 0
+        ));
+        Hero::create(array(
             'name' => 'furion',
             'type' => 'int',
             'is_ranged' => 1,
@@ -320,12 +332,6 @@ class HeroTableSeeder extends Seeder
         ));
         Hero::create(array(
             'name' => 'life_stealer',
-            'type' => 'str',
-            'is_ranged' => 0,
-            'is_radiant' => 0
-        ));
-        Hero::create(array(
-            'name' => 'dark_seer',
             'type' => 'str',
             'is_ranged' => 0,
             'is_radiant' => 0
@@ -493,6 +499,12 @@ class HeroTableSeeder extends Seeder
             'is_radiant' => 0
         ));
         Hero::create(array(
+            'name' => 'nyx_assassin',
+            'type' => 'agi',
+            'is_ranged' => 0,
+            'is_radiant' => 0
+        ));
+        Hero::create(array(
             'name' => 'treant',
             'type' => 'str',
             'is_ranged' => 0,
@@ -521,12 +533,6 @@ class HeroTableSeeder extends Seeder
             'type' => 'int',
             'is_ranged' => 1,
             'is_radiant' => 1
-        ));
-        Hero::create(array(
-            'name' => 'nyx_assassin',
-            'type' => 'int',
-            'is_ranged' => 0,
-            'is_radiant' => 0
         ));
         Hero::create(array(
             'name' => 'naga_siren',
@@ -568,6 +574,12 @@ class HeroTableSeeder extends Seeder
             'name' => 'troll_warlord',
             'type' => 'agi',
             'is_ranged' => 1,
+            'is_radiant' => 1
+        ));
+        Hero::create(array(
+            'name' => 'ember_spirit',
+            'type' => 'agi',
+            'is_ranged' => 0,
             'is_radiant' => 1
         ));
         Hero::create(array(
@@ -620,6 +632,12 @@ class HeroTableSeeder extends Seeder
         ));
         Hero::create(array(
             'name' => 'legion_commander',
+            'type' => 'str',
+            'is_ranged' => 0,
+            'is_radiant' => 1
+        ));
+        Hero::create(array(
+            'name' => 'earth_spirit',
             'type' => 'str',
             'is_ranged' => 0,
             'is_radiant' => 1

@@ -13,13 +13,15 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
-});
-Route::get('/home', function()
-{
-    $strHeroes = Hero::where('type', '=', 'str')->orderBy('is_radiant', 'DESC')->orderBy('id')->get();
-    $agiHeroes = Hero::where('type', '=', 'agi')->orderBy('is_radiant', 'DESC')->orderBy('id')->get();
-    $intHeroes = Hero::where('type', '=', 'int')->orderBy('is_radiant', 'DESC')->orderBy('id')->get();
+    function getHeroes($type){
+        return array(
+            "radiant" => Hero::ofType($type)->radiant()->orderBy('id')->get(),
+            "dire" => Hero::ofType($type)->dire()->orderBy('id')->get()
+        );
+    }
+    $strHeroes = getHeroes('str');
+    $agiHeroes = getHeroes('agi');
+    $intHeroes = getHeroes('int');
     return View::make('home')->with('allHeroes',  array(
         $strHeroes,
         $agiHeroes,
