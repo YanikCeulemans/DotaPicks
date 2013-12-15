@@ -1,17 +1,22 @@
 /* Master LESS file */
+body{
+    background: #333;
+}
+
 .content{
     padding-top: 60px;
 }
 .hero-column{
     width: 30%;
+    margin: 0 20px;
 
 
     &:first-child{
-        margin-right: 40px;
+        margin-left: 0;
     }
 
     &:last-child{
-        margin-left: 40px;
+        margin-right: 0;
     }
 }
 
@@ -20,6 +25,16 @@
     img{
         max-width: 100%;
         width: 100%;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+}
+
+.selected-hero, .combos, .counters{
+    height: 71px;
+    text-align: center;
+
+    img{
         border: 1px solid #fff;
     }
 }

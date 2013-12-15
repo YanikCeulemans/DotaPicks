@@ -21,12 +21,4 @@ class Hero extends Eloquent{
     public function scopeOfType($query, $type){
         return $query->where('type', '=', $type);
     }
-
-/*    public function agility($query){
-        return $query->where('type', '=', 'agi');
-    }
-
-    public function intelligence($query){
-        return $query->where('type', '=', 'int');
-    }*/
 }

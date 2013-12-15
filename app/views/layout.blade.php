@@ -17,5 +17,8 @@
     <div class="content">
         @yield('content')
     </div>
+    {{ HTML::script('packages/jquery/jquery.min.js') }}
+    {{ HTML::script('packages/bootstrap/js/bootstrap.min.js') }}
+    {{ HTML::script('js/main.js') }}
 </body>
 </html>
