@@ -15,6 +15,6 @@ $(function(){
         selectedHero.html(clone);
         clone.tooltip();
 
-        
+
     });
 });

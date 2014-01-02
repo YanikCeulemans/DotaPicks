@@ -9,8 +9,8 @@
     <header class="navbar navbar-fixed-top navbar-inverse">
         <nav class="container">
             <ul class="nav navbar-nav navbar-inner">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </nav>
     </header>

@@ -21,6 +21,7 @@
                             </div>
                         @endif
                     @endfor
+                    <br>
                 @endforeach
             </div>
         @endforeach

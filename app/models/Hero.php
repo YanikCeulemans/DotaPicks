@@ -21,4 +21,8 @@ class Hero extends Eloquent{
     public function scopeOfType($query, $type){
         return $query->where('type', '=', $type);
     }
+
+    public function counters(){
+        return $this->belongsToMany('Hero', 'counters', 'hero_id', 'counter_id');
+    }
 }

@@ -28,3 +28,13 @@ Route::get('/', function()
         $intHeroes
     ));
 });
+
+Route::get('about', function(){
+    return 'Not done yet :(';
+});
+
+Route::model('hero', 'Hero');
+
+Route::get('counters/{hero}', function(Hero $hero){
+    return $hero->counters->toJson();
+});

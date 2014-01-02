@@ -53,6 +53,12 @@ App::error(function(Exception $exception, $code)
 	Log::error($exception);
 });
 
+App::error(function(Illuminate\Database\Eloquent\ModelNotFoundException $e){
+    Log::error('The given id was not found in the heroes table');
+    return Response::make('Not Found', 404);
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Maintenance Mode Handler
