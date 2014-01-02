@@ -7,14 +7,24 @@
  */
 
 $(function(){
-    var heroes = $('img[data-toggle=tooltip]'),
-        selectedHero = $('.selected-hero');
-    heroes.tooltip();
+    var heroes = $('.hero-container img'),
+        tooltips = $('[data-toggle=tooltip]');
+    tooltips.tooltip();
     heroes.click(function(){
-        var clone = $(this).clone();
-        selectedHero.html(clone);
-        clone.tooltip();
+        var me = $(this),
+            clone = me.clone(),
+            id = me.data('id');
 
-
+        $.getJSON('/counters/' + id, function(data){
+            var image, obj;
+            for (var i = 0; i < data.length; i++) {
+                obj = data[i];
+                image = heroes.filter('[data-id=' + obj.id +  ']').clone();
+                $('.counters').append(image);
+                image.tooltip();
+            }
+            $('.selected-hero').html(clone);
+            clone.tooltip();
+        });
     });
 });

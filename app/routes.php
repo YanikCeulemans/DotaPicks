@@ -38,3 +38,11 @@ Route::model('hero', 'Hero');
 Route::get('counters/{hero}', function(Hero $hero){
     return $hero->counters->toJson();
 });
+
+Route::get('combos/{hero}', function(Hero $hero){
+    return $hero->combos->toJson();
+});
+
+Route::get('relatedHeroes/{hero}', function(Hero $hero){
+    // return combos + counters in a single json response
+});

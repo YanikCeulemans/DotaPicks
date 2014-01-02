@@ -16,7 +16,7 @@
                         @if ($i % 4 == 0 )
                             <div class="row">
                         @endif
-                                <div class="col-lg-3 hero-container"><img src="{{asset('img/heroes/' . $factionHero[$i]->name . '_hphover.png')}}" title="{{ trans(sprintf('heroes.%s',$factionHero[$i]->name)) }}" data-toggle="tooltip"/></div>
+                                <div class="col-lg-3 hero-container"><img src="{{asset('img/heroes/' . $factionHero[$i]->name . '_hphover.png')}}" title="{{ trans(sprintf('heroes.%s',$factionHero[$i]->name)) }}" data-toggle="tooltip" data-id="{{ $factionHero[$i]->id }}"/></div>
                         @if ($i % 4 == 3 || $i + 1 == count($factionHero))
                             </div>
                         @endif

@@ -25,4 +25,8 @@ class Hero extends Eloquent{
     public function counters(){
         return $this->belongsToMany('Hero', 'counters', 'hero_id', 'counter_id');
     }
+
+    public function combos(){
+        return $this->belongsToMany('Hero', 'combos', 'hero_id', 'combo_id');
+    }
 }
