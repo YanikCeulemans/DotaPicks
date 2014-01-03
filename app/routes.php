@@ -44,5 +44,8 @@ Route::get('combos/{hero}', function(Hero $hero){
 });
 
 Route::get('relatedHeroes/{hero}', function(Hero $hero){
-    // return combos + counters in a single json response
+    $combosAndCounters = array();
+    $combosAndCounters['combos'] = $hero->combos->toArray();
+    $combosAndCounters['counters'] = $hero->counters->toArray();
+    return json_encode($combosAndCounters);
 });

@@ -21,7 +21,8 @@ body{
 }
 
 .hero-container{
-    padding: 0;
+    padding: 2px;
+    box-sizing: border-box;
     img{
         max-width: 100%;
         width: 100%;
@@ -31,10 +32,37 @@ body{
 }
 
 .selected-hero, .combos, .counters{
-    height: 71px;
-    text-align: center;
+//    text-align: center;
 
     img{
         border: 1px solid #fff;
     }
+}
+
+.selected-hero-container{
+    margin-bottom: 30px;
+    .margined{
+        margin: 5px 0;
+    }
+}
+
+.combos:before, .counters:before, .selected-hero:before{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+
+.combos:before{
+    content: "Combos:";
+}
+
+.counters:before{
+    content: "Counters:";
+}
+
+.selected-hero:before{
+    content: "Selected:";
 }

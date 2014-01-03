@@ -3,9 +3,9 @@
 @section('content')
     <div class="container">
         <div class="col-lg-12 selected-hero-container">
-            <div class="combos"></div>
-            <div class="selected-hero"></div>
-            <div class="counters"></div>
+            <div class="combos margined"></div>
+            <div class="selected-hero margined"></div>
+            <div class="counters margined"></div>
         </div>
     </div>
     <div class="container">
